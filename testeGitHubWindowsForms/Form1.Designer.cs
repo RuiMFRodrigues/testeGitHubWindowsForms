@@ -28,26 +28,26 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.button1 = new System.Windows.Forms.Button();
+			this.b_teste = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
-			// button1
+			// b_teste
 			// 
-			this.button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(26, 32);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(232, 47);
-			this.button1.TabIndex = 0;
-			this.button1.Text = "Teste";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.b_teste.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.b_teste.Location = new System.Drawing.Point(24, 38);
+			this.b_teste.Name = "b_teste";
+			this.b_teste.Size = new System.Drawing.Size(232, 47);
+			this.b_teste.TabIndex = 0;
+			this.b_teste.Text = "Teste 1111";
+			this.b_teste.UseVisualStyleBackColor = true;
+			this.b_teste.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 109);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.b_teste);
 			this.Name = "Form1";
 			this.Text = "Form1";
 			this.ResumeLayout(false);
@@ -56,7 +56,7 @@
 
 		#endregion
 
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button b_teste;
 	}
 }
 
