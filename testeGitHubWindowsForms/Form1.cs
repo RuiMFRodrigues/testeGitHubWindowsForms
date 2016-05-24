@@ -14,5 +14,10 @@ namespace testeGitHubWindowsForms
 		{
 			InitializeComponent();
 		}
+
+		private void button1_Click(Object sender, EventArgs e)
+		{
+			MessageBox.Show("Teste");
+		}
 	}
 }
